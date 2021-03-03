@@ -25,7 +25,7 @@ class MainActivity : AppCompatActivity() {
                 resultado.setTextColor(Color.GREEN)
 
             }else {
-                resultado.setText("Aluno reprovado\nNota final: $media\nfaltas: $faltas")
+                resultado.setText("Aluno reprovado\nNota final: $media\nFaltas: $faltas")
                 resultado.setTextColor(Color.RED)
             }
         }
